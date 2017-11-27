@@ -5,3 +5,5 @@ The Sanitize_input class basically contains handy methods for validating and fil
 
 
 Expecting to add some tutorial and example soon. 
+
+Anyone can use and modify the code at his/her own risk. It is basic idea for validation. Although CI provide filtering facility builtin.
