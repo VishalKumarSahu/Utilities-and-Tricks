@@ -1,0 +1,26 @@
+/* Main Content */
+.site-content{
+  background: lightgray;
+  min-height: 800px;
+}
+
+header img{
+  filter: brightness(0) invert(1);
+}
+
+.w3-btn img{
+  filter: brightness(0) invert(1);
+}
+
+h1{
+  margin: 0;
+}
+
+/* Task Card Style */
+.task {
+  background: white;
+  width: 90%;
+  margin: 0;
+  padding: 12px;
+  margin-bottom: 10px;
+}

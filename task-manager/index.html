@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- Example structure -->
+	<header>
+		<h1 class="w3-container w3-blue-gray"><img src="images/icons/Document.png" /> Task Manager</h1>
+		<div class="w3-container actions w3-padding-16">
+			<form onSubmit="return addNewTask();" id="form-add-task-1">
+				<div class="w3-row-padding">
+					<div class="w3-third">
+						<input class="w3-input" type="text" placeholder="Task Title" name="title" id="form-task-title">
+					</div>
+					<div class="w3-third">
+						<input class="w3-input" type="text" placeholder="Description" name="description" id="form-task-description">
+					</div>
+					<div class="w3-third">
+						<input class="w3-btn w3-blue" type="submit" value="Add Task">
+						<!-- <button class="w3-btn w3-blue"><img src="images/icons/Plus.png" /> Add Task</button> -->
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	<main id="root" class="site-content w3-container">
+		<section class="w3-cell-row">
+			<div id="todo" class="w3-cell">
+				<h2><img src="images/icons/Binoculars.png" />Incomplete Tasks</h2>
+				<div id="tasks--todo-1"></div>
+			</div>
+			<div id="done" class="w3-cell">
+				<h2><img src="images/icons/Checked.png" />Completed Tasks</h2>
+				<div id="tasks--done-1"></div>
+			</div>
+		</section>
+	</main>
+
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</body>
+</html>
